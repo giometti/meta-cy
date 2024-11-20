@@ -37,6 +37,4 @@ function bad() {
 	echo -e "$__RED$@$__NC"
 }
 
-CY_METADIR="$(dirname $(dirname $(realpath $BASH_SOURCE)))"
-
 return 0
